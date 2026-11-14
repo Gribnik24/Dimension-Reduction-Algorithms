@@ -30,32 +30,6 @@ Source: [Background Models Challenge](https://backgroundmodelschallenge.eu/), `b
 
 The background estimation experiment uses `Video_008.avi`: **792 decoded frames**, **320 × 240 pixels**, and **10 FPS**. Grayscale frames form an uncentered matrix of shape **(76,800, 792)**, with one frame per column.
 
-## Project Structure
-
-```text
-├── README.md                                  # Original project assignment
-├── requirements.txt                           # Python dependencies
-├── LICENSE                                    # School 21 license
-└── src/
-    ├── README.md                              # Project overview and results
-    ├── 1_questions.ipynb                       # Curse of dimensionality, PCA, SVD, NMF, LLE
-    ├── 2_Classification_with_Sparse_Features.ipynb # Age regression on sparse book ratings
-    ├── 3_SVD_Image_Compression.ipynb           # MNIST embeddings and image compression
-    ├── 4_SVD_Background_Detection.ipynb        # Video background estimation
-    ├── Books.csv                              # Local dataset files: download separately
-    ├── Ratings.csv
-    ├── Users.csv
-    ├── Video_008.avi
-    ├── train-images-idx3-ubyte/
-    │   └── train-images-idx3-ubyte
-    ├── train-labels-idx1-ubyte/
-    │   └── train-labels-idx1-ubyte
-    ├── t10k-images-idx3-ubyte/
-    │   └── t10k-images-idx3-ubyte
-    └── t10k-labels-idx1-ubyte/
-        └── t10k-labels-idx1-ubyte
-```
-
 ## Methodology
 
 1. **Age Prediction from Sparse Features** — [Classification_with_Sparse_Features.ipynb](Classification_with_Sparse_Features.ipynb)
