@@ -1,0 +1,21 @@
+# Python 3.12 (notebooks developed with Python 3.12.7)
+
+# Numerical computing and data processing
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine learning and dimensionality reduction
+scikit-learn>=1.5
+umap-learn
+
+# Video loading and frame processing (cv2)
+opencv-python
+
+# Jupyter notebooks and Python kernel
+ipykernel
+jupyterlab
